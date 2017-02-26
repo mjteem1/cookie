@@ -38,6 +38,8 @@ public class LetMeRemember {
 	By milestonePage = By.linkText("MILESTONES");
 	By addMilestone = By.xpath("//button[contains(.,'Add Milestone')]");
 	By addMilestoneName = By.id("milestoneName");
+	By milestoneComplete = By.xpath("//img[@src='//cdn.teamwork.com/images/newui/checkbox.png']");
+	By viewCompletedMilestone = By.xpath("//a[contains(.,'Completed')]");
 
 
 	public WebElement className() {

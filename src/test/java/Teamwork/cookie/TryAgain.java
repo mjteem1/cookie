@@ -105,7 +105,9 @@ public class TryAgain {
 		
 		letmeremember.click(driver, letmeremember.className);
 		
-		letmeremember.click(driver, letmeremember.className);
+		letmeremember.click(driver, letmeremember.milestoneComplete);
+		
+		letmeremember.click(driver, letmeremember.viewCompletedMilestone);
 		
 	}
 
