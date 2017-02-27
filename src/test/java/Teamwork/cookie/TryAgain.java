@@ -1,5 +1,6 @@
 package Teamwork.cookie;
 
+import java.net.URL;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -8,71 +9,82 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
 
 public class TryAgain {
-	
-	static WebDriver driver;
-	static WebDriverWait wait;
-	static DateFormat dateformat;
-	public static LetMeRemember letmeremember;
-	
-	
-	public static void main (String[] args) {
-		
-		
 
-		System.setProperty("webdriver.chrome.driver", "C:/Users/MJ/Jars/chromedriver.exe");
-		driver = new ChromeDriver();
-		wait = new WebDriverWait(driver,10);
-		letmeremember = new LetMeRemember(driver, wait);
+	private WebDriver driver;
+	private WebDriverWait wait;
+	private DateFormat dateformat;
+	private static LetMeRemember letmeremember;
+
+
+	@BeforeClass
+	@org.testng.annotations.Parameters(value = {"browser", "os_version", "os"})
+	public void setUp(String browser, String os_version, String os) throws Exception {
+		DesiredCapabilities capability = new DesiredCapabilities();
+		capability.setCapability("browserName", browser);
+		capability.setCapability("os_version", os_version);
+		capability.setCapability("os", os);
+		capability.setCapability("project", "P1");
+		capability.setCapability("build", "1.0");
+		driver = new RemoteWebDriver(
+				new URL("https://mjheff1:LuXjLo9YyEC3eXHfWr7r@hub-cloud.browserstack.com/wd/hub"),
+				capability);
+		wait = new WebDriverWait(driver, 10);
+		letmeremember = new LetMeRemember(driver,wait);
+
+
 		dateformat = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss");
-		driver.manage().window().maximize();
-		driver.get("https://twtest.teamwork.com/#/login");
-		
-		String title = driver.getTitle();
-		
-		System.out.println(title);
-		
-		//get current date time with Date()
-		 Date date = new Date();
-		 
-		 // Now format the date
-		 String date1= dateformat.format(date);
-		
-		//Assert.assertEquals(title, "Testing");
-				
-		Cookie cookie = driver.manage().getCookieNamed("PROJLB");
+
+	driver.manage().
+			window().
+			maximize();
+
+	driver.get("https://twtest.teamwork.com/#/login");
+
+	String title = driver.getTitle();
+
+	System.out.println(title);
+
+	//get current date time with Date()
+	Date date = new Date();
+	// Now format the date
+	String date1 = dateformat.format(date);
+
+	//Assert.assertEquals(title, "Testing");
+
+	Cookie cookie = driver.manage().getCookieNamed("PROJLB");
 		driver.manage().deleteCookie(cookie);
 		driver.manage().addCookie(
 		  new Cookie.Builder(cookie.getName(), "beta")
-		    .domain(cookie.getDomain())
-		    .expiresOn(cookie.getExpiry())
-		    .path(cookie.getPath())
-		    .isSecure(cookie.isSecure())
-		    .build()
-		);
+			.domain(cookie.getDomain())
+			.expiresOn(cookie.getExpiry())
+			.path(cookie.getPath())
+			.isSecure(cookie.isSecure())
+			.build());
 		
 		System.out.println(cookie);
-		
 		System.out.println(date1);
-		
-		//wait.until(ExpectedConditions.visibilityOfElementLocated(letmeremember.userName));
-		//letmeremember.wait(letmeremember.userName);
-		
-		//http://www.ontestautomation.com/using-wrapper-methods-for-better-error-handling-in-selenium/
-		
-		
+}
+
+	@Test
+	public void testSimple() throws Exception {
+
+		Date date = new Date();
+		// Now format the date
+		String date1 = dateformat.format(date);
 		
 		letmeremember.type(driver, letmeremember.userName, "mj");
 		
 		letmeremember.type(driver, letmeremember.password, "test");
-				
-		//letmeremember.enterName("mj");
-		
-		
-		//letmeremember.wait(letmeremember.className);
+
 		letmeremember.click(driver, letmeremember.className);
 		
 		letmeremember.click(driver, letmeremember.addProject);
@@ -111,5 +123,9 @@ public class TryAgain {
 		
 	}
 
+	@AfterClass
+	public void tearDown() throws Exception {
+		driver.quit();
+	}
 	
 }
