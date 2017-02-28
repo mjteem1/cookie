@@ -2,56 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22ccd91d-7745-4c12-8f6b-ce0cd501d62c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_nodep_3_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_27.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_codeborne_phantomjsdriver_1_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_5_7_Final.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_4_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_platform_4_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_cssparser_cssparser_0_9_20.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_2_23.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_core_js_2_23.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_htmlunit_neko_htmlunit_2_23.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_beanshell_bsh_2_0b4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_2_15_v20160210.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_2_15_v20160210.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_2_15_v20160210.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_2_15_v20160210.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_2_15_v20160210.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_w3c_css_sac_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_serializer_2_7_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xalan_xalan_2_7_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_11_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cookie.iml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/Teamwork/cookie/TryAgain.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Teamwork/cookie/LetMeRemember.class" afterPath="$PROJECT_DIR$/target/test-classes/Teamwork/cookie/LetMeRemember.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Teamwork/cookie/TryAgain.class" afterPath="$PROJECT_DIR$/target/test-classes/Teamwork/cookie/TryAgain.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Teamwork/cookie/LetMeRemember.java" afterPath="$PROJECT_DIR$/src/test/java/Teamwork/cookie/LetMeRemember.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Teamwork/cookie/TryAgain.java" afterPath="$PROJECT_DIR$/src/test/java/Teamwork/cookie/TryAgain.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testng.xml" afterPath="$PROJECT_DIR$/testng.xml" />
     </list>
@@ -71,22 +25,22 @@
     <favorites_list name="cookie" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="testng.xml" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="testng.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+            <state relative-caret-position="165">
+              <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LetMeRemember.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LetMeRemember.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Teamwork/cookie/LetMeRemember.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+            <state relative-caret-position="450">
+              <caret line="30" column="48" lean-forward="false" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,8 +51,8 @@
       <file leaf-file-name="TryAgain.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Teamwork/cookie/TryAgain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1170">
-              <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+            <state relative-caret-position="163">
+              <caret line="69" column="12" lean-forward="false" selection-start-line="69" selection-start-column="12" selection-end-line="69" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,6 +73,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/test/java/Teamwork/cookie/LetMeRemember.java" />
         <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Teamwork/cookie/TryAgain.java" />
       </list>
@@ -134,10 +89,68 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="28" />
-    <option name="y" value="225" />
+    <option name="x" value="31" />
+    <option name="y" value="70" />
     <option name="width" value="1400" />
-    <option name="height" value="615" />
+    <option name="height" value="768" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>Declaration redundancyJava</id>
+          </State>
+          <State>
+            <id>Dependency issuesJava</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>ImportsJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Javadoc issuesJava</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Properties Files</id>
+          </State>
+          <State>
+            <id>TestNGJava</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>General</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -157,7 +170,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -166,8 +181,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cookie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -177,10 +192,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="cookie" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -240,9 +251,10 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunManager" selected="TestNG./Users/michaelheffernan/Documents/Automation/cookie/testng.xml">
     <configuration default="false" name="TryAgain" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
@@ -309,6 +321,33 @@
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="TryAgain.testSimple" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="cookie" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="Teamwork.cookie" />
+      <option name="MAIN_CLASS_NAME" value="Teamwork.cookie.TryAgain" />
+      <option name="METHOD_NAME" value="testSimple" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -432,16 +471,18 @@
       <listeners />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="TestNG.TryAgain" />
       <item index="1" class="java.lang.String" itemvalue="TestNG.TryAgain (1)" />
       <item index="2" class="java.lang.String" itemvalue="TestNG./Users/michaelheffernan/Documents/Automation/cookie/testng.xml" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.TryAgain.testSimple" />
     </list>
     <recent_temporary>
-      <list size="3">
+      <list size="4">
         <item index="0" class="java.lang.String" itemvalue="TestNG./Users/michaelheffernan/Documents/Automation/cookie/testng.xml" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.TryAgain (1)" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.TryAgain" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.TryAgain" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.TryAgain.testSimple" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.TryAgain (1)" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
@@ -454,6 +495,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",VISIBILITY_SORTER" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="22ccd91d-7745-4c12-8f6b-ce0cd501d62c" name="Default" comment="" />
@@ -465,36 +509,60 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TryAgain_(1) - 2017.02.27 at 17h 56m 19s.xml">
-      <configuration name="TryAgain (1)" configurationId="TestNG" />
+    <history-entry file="_Users_michaelheffernan_Documents_Automation_cookie_testng_xml - 2017.02.27 at 23h 05m 22s.xml">
+      <configuration name="/Users/michaelheffernan/Documents/Automation/cookie/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_michaelheffernan_Documents_Automation_cookie_testng_xml - 2017.02.27 at 17h 57m 37s.xml">
+    <history-entry file="_Users_michaelheffernan_Documents_Automation_cookie_testng_xml - 2017.02.27 at 23h 06m 00s.xml">
+      <configuration name="/Users/michaelheffernan/Documents/Automation/cookie/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_michaelheffernan_Documents_Automation_cookie_testng_xml - 2017.02.27 at 23h 08m 45s.xml">
+      <configuration name="/Users/michaelheffernan/Documents/Automation/cookie/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_michaelheffernan_Documents_Automation_cookie_testng_xml - 2017.02.27 at 23h 13m 41s.xml">
+      <configuration name="/Users/michaelheffernan/Documents/Automation/cookie/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_michaelheffernan_Documents_Automation_cookie_testng_xml - 2017.02.27 at 23h 16m 29s.xml">
+      <configuration name="/Users/michaelheffernan/Documents/Automation/cookie/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_michaelheffernan_Documents_Automation_cookie_testng_xml - 2017.02.27 at 23h 19m 35s.xml">
+      <configuration name="/Users/michaelheffernan/Documents/Automation/cookie/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_michaelheffernan_Documents_Automation_cookie_testng_xml - 2017.02.27 at 23h 21m 37s.xml">
+      <configuration name="/Users/michaelheffernan/Documents/Automation/cookie/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_michaelheffernan_Documents_Automation_cookie_testng_xml - 2017.02.27 at 23h 24m 21s.xml">
+      <configuration name="/Users/michaelheffernan/Documents/Automation/cookie/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_michaelheffernan_Documents_Automation_cookie_testng_xml - 2017.02.28 at 13h 20m 24s.xml">
+      <configuration name="/Users/michaelheffernan/Documents/Automation/cookie/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_michaelheffernan_Documents_Automation_cookie_testng_xml - 2017.02.28 at 13h 25m 09s.xml">
       <configuration name="/Users/michaelheffernan/Documents/Automation/cookie/testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="28" y="225" width="1400" height="615" extended-state="0" />
+    <frame x="31" y="70" width="1400" height="768" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904148" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3962804" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -506,11 +574,38 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="56" lean-forward="true" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Teamwork/cookie/LetMeRemember.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Teamwork/cookie/TryAgain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cookie.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -524,18 +619,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Teamwork/cookie/TryAgain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1170">
-          <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Teamwork/cookie/LetMeRemember.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        <state relative-caret-position="163">
+          <caret line="69" column="12" lean-forward="false" selection-start-line="69" selection-start-column="12" selection-end-line="69" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -544,9 +629,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        <state relative-caret-position="165">
+          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Teamwork/cookie/LetMeRemember.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="48" lean-forward="false" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

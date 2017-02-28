@@ -16,13 +16,6 @@ public class LetMeRemember {
 	@SuppressWarnings("unused")
 	private WebDriverWait wait;
 	
-	public LetMeRemember(WebDriver driver, WebDriverWait wait) {
-
-		this.driver = driver;
-		this.wait = wait;
-		
-	}
-	
 	By userName = By.id("userName");
 	By password = By.id("password");
 
@@ -88,12 +81,12 @@ public class LetMeRemember {
 //	}
 //	
 
-public void click(WebDriver driver, By by) {
+public void click(WebDriver driver,By by) {
     (new WebDriverWait(driver, 10)).until(ExpectedConditions.elementToBeClickable(by));
     driver.findElement(by).click();
 }
 
-public void type(WebDriver driver, By by, String stuff) {
+public void type(WebDriver driver,By by, String stuff) {
 	(new WebDriverWait(driver, 10)).until(ExpectedConditions.elementToBeClickable(by));
 	driver.findElement(by).sendKeys(stuff);
 }

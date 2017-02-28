@@ -5,10 +5,8 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -34,11 +32,12 @@ public class TryAgain {
 		capability.setCapability("os", os);
 		capability.setCapability("project", "P1");
 		capability.setCapability("build", "1.0");
+
 		driver = new RemoteWebDriver(
 				new URL("https://mjheff1:LuXjLo9YyEC3eXHfWr7r@hub-cloud.browserstack.com/wd/hub"),
 				capability);
 		wait = new WebDriverWait(driver, 10);
-		letmeremember = new LetMeRemember(driver,wait);
+		letmeremember = new LetMeRemember();
 
 
 		dateformat = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss");
@@ -75,7 +74,8 @@ public class TryAgain {
 }
 
 	@Test
-	public void testSimple() throws Exception {
+	@org.testng.annotations.Parameters(value = {"browser"})
+	public void testSimple(String browser) throws Exception {
 
 		Date date = new Date();
 		// Now format the date
@@ -86,22 +86,24 @@ public class TryAgain {
 		letmeremember.type(driver, letmeremember.password, "test");
 
 		letmeremember.click(driver, letmeremember.className);
+
+		System.out.println("Logged in");
 		
 		letmeremember.click(driver, letmeremember.addProject);
 		
-		letmeremember.type(driver, letmeremember.projectName, "Lolly LOL lollY - created (" + date1 + ")");
+		letmeremember.type(driver, letmeremember.projectName, "Lolly LOL lollY - created (" + date1 + " " + browser + ")");
 		
 		letmeremember.click(driver, letmeremember.saveProject);
 		
 		letmeremember.click(driver, letmeremember.addTaskList);
 		
-		letmeremember.type(driver, letmeremember.projectName, "Lolly LOL lollY Task List - created (" + date1 + ")");
+		letmeremember.type(driver, letmeremember.projectName, "Lolly LOL lollY Task List - created (" + date1 + " " + browser + ")");
 		
 		letmeremember.click(driver, letmeremember.submit);
 		
 		letmeremember.click(driver, letmeremember.addFirstTask);
 		
-		letmeremember.type(driver, letmeremember.addTaskName, "I just created a task for the lulz at " + date1);
+		letmeremember.type(driver, letmeremember.addTaskName, "I just created a task for the lulz at " + date1 + " " + browser + ")");
 		
 		letmeremember.click(driver, letmeremember.submit);
 		
@@ -113,7 +115,7 @@ public class TryAgain {
 		
 		letmeremember.click(driver, letmeremember.addMilestone);
 		
-		letmeremember.type(driver, letmeremember.addMilestoneName, "Here be a Milestone created on " + date1);
+		letmeremember.type(driver, letmeremember.addMilestoneName, "Here be a Milestone created on " + date1 + " " + browser + ")");
 		
 		letmeremember.click(driver, letmeremember.className);
 		
