@@ -117,7 +117,7 @@ public class TryAgain {
 		
 		letmeremember.type(driver, letmeremember.addMilestoneName, "Here be a Milestone created on " + date1 + " " + browser + ")");
 		
-		letmeremember.click(driver, letmeremember.className);
+		letmeremember.click(driver, letmeremember.clickAdd);
 		
 		letmeremember.click(driver, letmeremember.milestoneComplete);
 		

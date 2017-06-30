@@ -16,10 +16,10 @@ public class LetMeRemember {
 	@SuppressWarnings("unused")
 	private WebDriverWait wait;
 	
-	By userName = By.id("userName");
-	By password = By.id("password");
+	By userName = By.id("nameoremail");
+	By password = By.id("passwordfield");
 
-	By className = By.className("ladda-label");
+	By className = By.xpath("//input[@value='Login']");
 	By addProject = By.xpath("//button[@data-bind='click:OnClickAddProject']");
 	By projectName = By.id("newProjectName");
 	By saveProject = By.xpath("//button[@type='submit']");
@@ -33,6 +33,7 @@ public class LetMeRemember {
 	By addMilestoneName = By.id("milestoneName");
 	By milestoneComplete = By.xpath("//img[@src='//cdn.teamwork.com/images/newui/checkbox.png']");
 	By viewCompletedMilestone = By.xpath("//a[contains(.,'Completed')]");
+	By clickAdd = By.xpath("//button[@type='submit']");
 
 
 	public WebElement className() {
@@ -90,6 +91,11 @@ public void type(WebDriver driver,By by, String stuff) {
 	(new WebDriverWait(driver, 10)).until(ExpectedConditions.elementToBeClickable(by));
 	driver.findElement(by).sendKeys(stuff);
 }
+
+	public void type1(By by, String stuff) {
+		(new WebDriverWait(driver, 10)).until(ExpectedConditions.elementToBeClickable(by));
+		driver.findElement(by).sendKeys(stuff);
+	}
 
 //	public ExpectedCondition<WebElement> wait(By stuff) {
 //
