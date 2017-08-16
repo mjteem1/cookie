@@ -32,6 +32,8 @@ public class TryAgain {
 		capability.setCapability("os", os);
 		capability.setCapability("project", "P1");
 		capability.setCapability("build", "1.0");
+		capability.setCapability("browserstack.local", true);
+
 
 		driver = new RemoteWebDriver(
 				new URL("https://mjheff1:LuXjLo9YyEC3eXHfWr7r@hub-cloud.browserstack.com/wd/hub"),
@@ -46,7 +48,7 @@ public class TryAgain {
 			window().
 			maximize();
 
-	driver.get("https://twtest.teamwork.com/#/login");
+	driver.get("http://sunbeam.teamwork.dev/#/login");
 
 	String title = driver.getTitle();
 
@@ -59,7 +61,9 @@ public class TryAgain {
 
 	//Assert.assertEquals(title, "Testing");
 
-	Cookie cookie = driver.manage().getCookieNamed("PROJLB");
+		//commenting out cookie - because this is using the local version
+
+	/*Cookie cookie = driver.manage().getCookieNamed("PROJLB");
 		driver.manage().deleteCookie(cookie);
 		driver.manage().addCookie(
 		  new Cookie.Builder(cookie.getName(), "beta")
@@ -67,9 +71,9 @@ public class TryAgain {
 			.expiresOn(cookie.getExpiry())
 			.path(cookie.getPath())
 			.isSecure(cookie.isSecure())
-			.build());
+			.build()); */
 		
-		System.out.println(cookie);
+		//System.out.println(cookie);
 		System.out.println(date1);
 }
 

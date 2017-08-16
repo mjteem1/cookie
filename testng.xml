@@ -44,7 +44,7 @@
     </test> <!-- Test -->
     <test name="SafariTest">
         <parameter name="browser" value="safari" />
-        <parameter name="os_version" value="Snow Leopard" />
+        <parameter name="os_version" value="El Capitan" />
         <parameter name="os" value="OS X" />
         <classes>
             <class name="Teamwork.cookie.TryAgain" />
